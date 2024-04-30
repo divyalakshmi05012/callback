@@ -1,0 +1,39 @@
+let root=document.createElement('h1')
+root.setAttribute("class","root1")
+document.body.append(root);
+
+setTimeout(()=>{
+    root.innerHTML="10";
+    setTimeout(()=>{
+        root.innerHTML="9";
+        setTimeout(()=>{
+            root.innerHTML="8";
+            setTimeout(()=>{
+                root.innerHTML="7";
+                setTimeout(()=>{
+                    root.innerHTML="6";
+                    setTimeout(()=>{
+                        root.innerHTML="5";
+                        setTimeout(()=>{
+                            root.innerHTML="4";
+                            setTimeout(()=>{
+                                root.innerHTML="3";
+                                setTimeout(()=>{
+                                    root.innerHTML="2";
+                                    setTimeout(()=>{
+                                        root.innerHTML="1";
+                                        setTimeout(()=>{
+                                            setTimeout(()=>{
+                                                root.innerHTML="Happy Independent day";
+                                            },1000)
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)

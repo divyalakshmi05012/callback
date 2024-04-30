@@ -1,0 +1,9 @@
+.root1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(34, 148, 148);
+    color: black;
+    font-size:50px;
+}
